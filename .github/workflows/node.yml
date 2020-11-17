@@ -5,7 +5,7 @@ name: Node
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
     - uses: actions/setup-node@v1
     - name: npm version
