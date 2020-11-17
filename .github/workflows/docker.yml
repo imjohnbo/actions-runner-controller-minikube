@@ -1,0 +1,12 @@
+on:
+  workflow_dispatch:
+
+name: Docker
+
+jobs:
+  build:
+    runs-on: self-hosted
+    steps:
+    - name: docker version
+      run: |
+        docker --version
